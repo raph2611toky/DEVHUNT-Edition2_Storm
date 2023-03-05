@@ -1,0 +1,168 @@
+.header{
+    height: 4rem;
+    background: var(--white);
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.2);
+    z-index: 5;
+}
+.header .logo {
+    flex: 1.2;
+}
+.header .logo img{
+    width: 3.2rem;
+    margin: 5px;
+}
+
+.header .header-container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .header-container .search{
+    flex: 1.8;
+    display: flex;
+    align-items: center;
+    background: #68686e4e;
+    color: black;
+    padding: 0 1rem;
+    border-radius: 0.4rem;
+    height: 35px;
+    margin: 15px auto;
+}
+.header .header-container .search input{
+    background: transparent;
+    width: 100%;
+    border: none;
+    color: black;
+}
+.header .header-container .search i{
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.header .user-container{
+    flex: 1.8;
+    justify-content: flex-end;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    color: black;
+}
+
+.header .user-container .notification__bell{
+    font-size: 1.3rem;
+}
+
+.header .user-container .message, .header .user-container .notification__bell{
+    position: relative;
+}
+
+.header .user-container .notification__bell div{
+    position: absolute;
+    background: red;
+    top: 3px;
+    right: 3px;
+    border-radius: 50%;
+    width: 7px;
+    height: 7px;
+}
+
+
+
+.header .user-container > div{
+    cursor: pointer;
+}
+
+.header .user-profile{
+    display: flex;
+    gap: 0.5rem;
+    align-items: flex-start;
+    cursor: pointer;
+    position: relative;
+}
+
+.header .user-profile img{
+    width: 2rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.header .user-profile p{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.header .user-profile p small{
+   font-size: 12px;
+   font-weight: 500;
+}
+
+.header .user-profile i{
+    transform: rotate(180deg);
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+.header .user-profile i{
+    transform: rotate(0deg);
+    animation: anime 3s ease linear;
+}
+
+
+.header .user-profile .more-details{
+    display: none;
+    position: absolute;
+    top: 4rem;
+    background: var(--white);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.122);
+    right: 0;
+    z-index: 3;
+    cursor: default;
+    width: 15rem;
+    display: flex;
+    justify-content: flex-start;
+}
+.header .user-profile .more-details .content{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 0.5rem;
+    
+}
+.header .user-profile .more-details.slow-down{
+    display: flex;
+}
+
+.header .more-details .content span{
+    cursor: pointer;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+.header .user-profile .more-details .content::before{
+    content: "";
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    background: var(--white);
+    right: 2rem;
+    top: -0.5rem;
+    transform: rotate(45deg);
+}
+
+.header .user-profile .more-details .content span{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}

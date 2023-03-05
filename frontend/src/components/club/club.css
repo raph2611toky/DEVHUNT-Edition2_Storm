@@ -1,0 +1,232 @@
+.clubs{
+    position: relative;
+    background: var(--white);
+}
+
+.ajoutClub{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--white);
+    z-index: 2;
+}
+
+.ajoutClub__container{
+    background: va(--white);
+    padding: 2rem;
+    height: fit-content;
+    width: 100%;
+}
+.ajoutClub__container .check{
+    height: 1rem;
+    width: 1rem;
+    background: blue;
+}
+.ajoutClub__container h2{
+    text-align: center;
+}
+.ajoutClub__container .ajout__staf{
+    display: flex;
+    flex-direction: column;
+}
+.ajoutClub__container .ajout__staf .stafs{
+    margin-top: 1rem;
+}
+.ajoutClub__container .ajout__staf .all__newstaf-search{
+    display: flex;
+    margin: 2rem 0 ;
+    border-bottom: 1px solid grey;
+    width: 60%;
+    padding: 0.5rem 1rem;
+    justify-content: flex-start;
+    margin-top: 0.5rem;
+}
+.ajoutClub__container .staf__container{
+    margin: 1rem 0;
+    display: flex;
+}
+.ajoutClub__container .staf__container .staf{
+    padding: 1rem 2rem;
+    border-left: 1px solid gray;
+}
+.ajoutClub__container .ajout__staf .staf{
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    font-weight: 600;
+    cursor: pointer;
+}
+.ajoutClub__container .ajout__staf .staf label{
+    display: flex;
+}
+.ajoutClub__container form{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+.ajoutClub__container form textarea{
+    min-height: 8rem;
+}
+.ajoutClub__container .staf label div{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.ajoutClub__container form>div{
+    display: flex;
+    flex-direction: column;
+}
+
+.ajoutClub__container form>div span{
+    color: red;
+}
+
+.ajoutClub__container form input{
+    padding: 0.3rem 1rem;
+}
+
+.ajoutClub__container form  .recherche{
+    padding: 0.4rem 0.6rem;
+    background: var(--green-color);
+    color: var(--white);
+    border: none;
+}
+
+.ajoutClub__container form> button{
+    width: fit-content;
+    padding: 0.5rem 1rem;
+    border: none;
+    background: var(--green-color);
+    color: var(--white);
+    margin-top: 1.5rem;
+}
+.ajoutClub__container .logo__container{
+    display: flex;
+}
+.ajoutClub__container .logo__container .logo > div{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.ajoutClub__container .logo__container .logo > div{
+    border: 1px solid gray;
+    border-radius: 0.2rem;
+    padding: 0.2rem 1rem;
+}
+.ajoutClub__container .logo__container .logo label{
+    background: var(--green-color);
+    width: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 1rem;
+}
+
+.ajoutClub__container .logo__container .logo > div input{
+    position: absolute;
+    width: 100%;
+    scale: 2;
+    opacity: 0;
+}
+
+.ajoutClub__container .logo__container .logo{
+    display: flex;
+    align-items: center;
+    background: white;
+}
+
+.ajoutClub__container img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.clubs .clubs__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 1rem;
+}
+
+.clubs__container-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 0.5rem;
+}
+.clubs__container-header .search{
+    width: 25rem;
+    display: flex;
+}
+
+.clubs__container-header .search div{
+    width: 100%;
+    background: #68686e4e;
+    padding: 0.3rem 0.5rem;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.clubs__container-header .search div input{
+    width: 100%;
+    background: transparent;
+    border: none;
+    color: black;
+    padding: 0 1rem;
+}
+
+.clubs__container-header .search button{
+    background: green;
+    border: none;
+    color: var(--white);
+    padding: 0 0.8rem;
+}
+
+.clubs .clubs__container .add{
+    background: rgba(1, 135, 251, 0.972);
+    border: none;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+}
+
+.clubs__body{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.clubs__body .club{
+    width: 100%;
+    padding: 1.5rem 1.6rem;
+    border-top: 1px solid gray;
+    display: flex;
+    gap: 1rem;
+}
+.clubs__body .club .club__photo{
+    width: 5rem;
+}
+
+.clubs__body .club  p{
+    font-size: 14px;
+}
+.clubs__body .club .club__info{
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+
+.clubs__body .club .club__info div span{
+    background: rgba(1, 135, 251, 0.972);
+    padding: 0.5rem 0.6rem;
+    border-radius: 0.3rem;
+}

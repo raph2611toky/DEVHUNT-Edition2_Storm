@@ -1,0 +1,15 @@
+.sideRight{
+    padding: 0px 0px 0px 20px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.sideRight .postQuestion button{
+    background: var(--green-color);
+    padding: 7px;
+    border: none;
+    width: 100%;
+    color: var(--white);
+    border-radius: 5px;
+}

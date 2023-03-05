@@ -1,0 +1,38 @@
+.home{
+    height: 100vh;
+    margin-top: 80px;
+    display: flex;
+    top: 20px;
+}
+
+
+.home .left{
+    position: fixed;
+    width: 300px;
+}
+
+.home .center{
+    margin-left: 300px;
+    width: 60%;
+}
+
+.home .right{
+    width: 300px;
+    text-align: center;
+}
+
+.home .center__top{
+    display: flex;
+    justify-content: space-between;
+    background: var(--white);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.home .center__top span{
+     padding: 1rem 2rem;
+     cursor: pointer;
+}
+
+.home .center__top .active{
+     border-bottom: 2px solid red;
+}

@@ -1,0 +1,112 @@
+
+.questionContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--white);
+    padding: 3rem 3rem;
+    border-bottom: 1px solid #ddd;
+}
+
+
+.question{
+    display: flex;
+    gap: 0.5rem;
+    width: 100%;
+}
+
+.question__user-image{
+    flex: 0.2;
+    width: 4rem;
+    border-radius: 50%;
+    overflow: hidden;
+    width: fit-content;
+    height: fit-content;
+}
+
+.question .question__container{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.question__user-info{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.question__user-info .user__info{
+    display: flex;
+    gap: 1rem;
+}
+.question__user-info #user__name{
+    color: var(--green-color);
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.question__user-info .user__level{
+    background: blue;
+    color: var(--white);
+    padding: 0 0.5rem;
+    font-weight: 600;
+}
+.question__user-info .question__date{
+    color: black;
+    font-weight: 600;
+}
+
+.question__user-info .question__date small{
+    color: rgb(105, 105, 105);
+}
+.question__user-info span{
+    font-size: 14px ;
+}
+
+.question__container-content p{
+    font-size: 14px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    color: rgb(56, 56, 56);
+    
+}
+
+.question__answers{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.8rem 1.2rem;
+    background: rgba(220, 219, 219, 0.53);
+    margin-top: 1rem;
+}
+
+.question__answers .questions__answers-views{
+    display: flex;
+    gap: 1rem;
+}
+
+.questions__answers-views span{
+    display: flex;
+    gap: 0.3rem;
+    align-items: center;
+    background: var(--white);
+    padding: 0.2rem 0.5rem ;
+    border: 1px solid rgb(128, 128, 128);
+    color: rgb(128, 128, 128);
+    cursor: pointer;
+}
+
+.question__answers button{
+    color: var(--white);
+    background: var(--green-color);
+    padding: 0.5rem 0.8rem;
+    border: none;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}

@@ -1,0 +1,86 @@
+.signUp
+{
+    background: url('../../assets/signupGif.gif');
+}
+
+.signUp button{
+    border-radius: 5px;
+}
+
+.SignIn-welcome
+{
+    text-align: center;
+    color: var(--green-color);
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+}
+.SignIn-parent
+{
+    height: 100vh;
+    display: grid;
+    place-content: center;
+}
+.signIn-form1
+{
+ width: 30rem;
+ background: var(--grey-background);
+ border-radius: 5px;
+ padding: 20px 30px;
+}
+.signIn-form1 h1
+{
+    font-size: 30px;
+    text-align: center;
+    color: var(--blackP);
+    
+}
+.signIn-form1
+{
+    color: rgb(220,220,220);
+}
+.Sing
+{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.sign-input{
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px #6a7077;
+    border: 2px solid var(--grey-background);
+    background: var(--white);
+    font-size: 18px;
+    padding: 5px;
+    color: var(--blackP);;
+    
+    font-size: 13px;
+}
+.Sing input:focus{
+    border: 2px solid var(--green-color);
+}
+
+.Sing select{
+    border-radius: 5px;
+}
+
+.Sing label
+{
+    margin: 5px 0;
+    color: var(--blackP);
+}
+.signIn-butn
+{
+    background: var(--green-color);
+    padding: 5px 10px;
+    font-size: 20px;
+    color: var(--white);
+    width: 90%;
+    margin: 5px 20px;
+    border: 2px solid var(--grey-background);
+}
+.signIn-butn:active
+{
+     border: 2px solid var(--green-color);
+}

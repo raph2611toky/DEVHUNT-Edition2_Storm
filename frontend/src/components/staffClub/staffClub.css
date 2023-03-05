@@ -1,0 +1,55 @@
+.contentStaff{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+}
+
+.contentStaff .StaffClub{
+    width: 100%;
+    margin-top: 50px;
+}
+
+
+
+ .nameClub img{
+    width: 60px;
+    height: 60px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+
+ .nameClub{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+
+.nameClub .left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nameClub .return button{
+    background: var(--green-color);
+    padding: 7px;
+    width: 100px;
+    color: var(--white);
+    border: 1px solid var(--white);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+

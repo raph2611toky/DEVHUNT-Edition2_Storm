@@ -1,0 +1,42 @@
+
+.listEtudiants{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: var(--white);
+}
+
+
+.list__etudiants-container{
+ display: flex;
+ flex-wrap: wrap;
+ margin:auto;
+ gap: 2rem;
+ padding: 2rem 4rem ;
+}
+
+.list__etudiants-container .etudiant{
+    padding: 2rem;
+    background: var(--bleu-ciel);
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list__etudiants-container .etudiant img{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+}
+
+.list__etudiants-container .etudiant .etudiant__info{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}

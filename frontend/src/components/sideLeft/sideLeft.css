@@ -1,0 +1,45 @@
+.SideLeft{
+    margin: 00px 50px auto;
+    width: 200px;
+    display: flex;
+}
+
+.SideLeft .contentList{
+    border-radius: 5px;
+    align-self: flex-start;
+    width: 300px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.SideLeft .contentList span{
+    display: block;
+    position: relative;
+    color: var(--blackP);
+    padding: 15px;
+    overflow: hidden;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.SideLeft .contentList span a{
+    font-size: 14px;
+    color: var(--blcackP);
+}
+
+
+.SideLeft .contentList .active{
+    background: #008ee73f;
+    border-right: 5px solid var(--green-color);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.SideLeft .contentList .rmActive{
+    background-color: red;
+    width: 100%;
+    height: 100%;
+}

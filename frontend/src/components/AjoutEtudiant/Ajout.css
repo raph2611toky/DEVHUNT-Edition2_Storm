@@ -1,0 +1,82 @@
+.Ajout-RAD
+{
+    background: url('../../assets/signupGif.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+}
+.Ajout-titre
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--green-color);
+}
+.Ajout-titre h1
+{
+     text-align: center;
+}
+.Ajout-form
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+
+}
+.Ajout
+{
+    display: flex;
+    flex-direction: column;
+    transform: translateX(-45px);
+}
+.Ajout-input
+{
+    background: none;
+    border: none;
+    border-bottom: 2px solid var(--white);
+    padding: 8px;
+    color:var(--green-color);
+    width: 160%;
+}
+.ajout-chapeau
+{
+    width: 30%;
+}
+.Ajout label{
+    color: var(--white);
+    margin: 10px 0;
+    transform: translateY(10px);
+}
+.Ajout-parent
+{
+
+    width: 30rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transform: translateX(200rem,0);
+}
+.Ajout-btn
+{
+    margin:30px 0;
+    padding: 5px 20px;
+    font-size: 20px;
+    background: var(--green-color);
+    color: var(--white);
+    border: none;
+    width: 160.8%;
+    border-radius: 5px;
+    border: 2px solid  var(--blcackP);
+}
+.Ajout-btn:active
+{
+    border: 2px solid var(--green-color);
+}

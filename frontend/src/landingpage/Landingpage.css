@@ -1,0 +1,321 @@
+.landingPage{
+    background: url('../assets/landingBG.gif')no-repeat;
+    background-size: cover;
+    height: fit-content;
+    width: 100%;
+}
+
+.landingpage__container{
+    height: 100%;
+    width: 100%;
+    padding:  2rem 0 0 0;
+    background: #000b0fda;
+    color: var(--white);
+}
+
+/* .landingPage header .action a span{
+    border: 1px solid red;
+} */
+
+
+.landingpage__container .landingPage__header{
+    width: 80%;
+    margin:auto; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem;
+    border-radius: 3rem;
+}
+
+.landingpage__container .landingPage__header .action{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.landingpage__container .landingPage__header .action a{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.landingpage__container .landingPage__header .action .login,.sign__up{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.landingpage__container .landingPage__header .action .sign__up{
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.landingpage__container .landingPage__header .action a img{
+    width: 25px;
+}
+
+.landingpage__container .landingPage__header span{
+    padding: 0.4rem 1rem;
+    border-radius: 1rem;
+    color: var(--white);
+    cursor: pointer;
+}
+
+.landingpage__container .landingPage__header span.sign__up{
+    background: #008ee73f;
+}
+
+.landingPage__body{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.landingPage__body-top{
+    width: 80%;
+    margin: 8rem auto 2rem auto;
+    gap: 2rem;
+    display: flex;
+}
+
+.landingPage__body-top__left{
+    flex: 1.5;
+}
+
+.landingPage__body-top h1 span{
+    color: var(--green-color);
+    font-size: 6rem;
+}
+.landingPage__body-top h1 small{
+    font-size: 2rem;
+}
+
+.landingPage__body-top__right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.landingPage__body-top__right h1{
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+}
+
+.landingPage__body-top__right h1.bottom{
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.landingPage__body-bottom{
+    margin: 6rem auto 8rem auto;
+    width: 80%;
+    background: #008ee785;
+    padding: 3rem 15rem;
+    border-radius: 1rem;
+}
+
+.landingPage__body-bottom__container{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.landingPage__body-bottom__container button{
+    width: fit-content;
+    background:rgba(43, 43, 50, 0.721);
+    border: none;
+    padding: 0.6rem 1.5rem;
+    border-radius: 1.5rem;
+    color: var(--white);
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.landingPage__body-bottom h1{
+    font-size: 1.5rem;
+}
+
+.footer{
+    background: #2e2e38;
+    padding-bottom: 20px;
+}
+
+.footer hr{
+    width: 80%;
+    margin: 10px auto;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0));
+    background-color: var(--white);
+    color: inherit;
+    opacity: 0.25;
+}
+
+.footer .copyRight{
+    display: grid;
+    place-content: center;
+}
+
+.footer .copyRight p{
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+
+.footer__container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__content-left .social__media{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    margin: 0.6rem 0;
+}
+
+.footer__content-left .social__media i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    padding: 0.5rem;
+    border-radius: 50%;
+    background: blue;
+}
+
+.footer__container .conatct__admin{
+    display: flex;
+    gap: 15px;
+}
+
+.footer__container .conatct__admin i{
+    font-size: 1.5rem;
+}
+
+.footer__content-left .conatct__admin div{
+    background: rgba(0, 0, 0, 0.251);
+    padding: 0.3rem 0.6rem;
+}
+
+.footer__container .conatct__admin textarea{
+    /* background: transparent; */
+    border: 1px solid var(--white);
+    color: var(--white);
+}
+.footer__container .conatct__admin button{
+    background: var(--green-color);
+    color: var(--white);
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.footer__content-right .action{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.footer__content-right span{
+    padding: 0.4rem 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer__content-right span img{
+    width: 25px;
+}
+
+.footer__content-right span.sign__up{
+    background: rgba(74, 74, 85, 0.721);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+
+@media screen and (max-width: 1200px){
+    .landingpage__container .landingPage__header{
+        width: 90%;
+    }
+
+    .landingPage__body-top{
+        width: 90%;
+    }
+    .landingPage__body-top h1 span{
+        font-size: 2.5rem;
+    }
+    .landingPage__body-top h1 small{
+        font-size: 1.5rem;
+    }
+    .landingPage__body-bottom{
+        margin: 3rem auto;
+        width: 90%;
+        padding: 1rem 10rem;
+    }
+    .footer__container{
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width: 772px){
+    .landingpage__container .landingPage__header{
+        width: 95%;
+    }
+
+    .landingPage__body-top{
+        width: 95%;
+    }
+    .landingPage__body-top__left{
+        display: none;
+    }
+    .landingPage__body-top h1 span{
+        font-size: 4rem;
+    }
+    .landingPage__body-top h1 small{
+        font-size: 1.5rem;
+    }
+    .landingPage__body-top__right h1.bottom{
+        align-items: center;
+    }
+    .landingPage__body-top__right{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .landingPage__body-bottom{
+        margin: 3rem auto;
+        width: 95%;
+        padding: 1rem 10rem;
+    }
+    .footer__container{
+        width: 95%;
+    }
+
+    .landingPage__body-bottom{
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 572px){
+
+}

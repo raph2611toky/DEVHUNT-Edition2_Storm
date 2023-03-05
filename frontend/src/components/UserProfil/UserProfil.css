@@ -1,0 +1,89 @@
+.profil-parent
+{
+    background: linear-gradient(var(--green-color),var(--bleu-ciel));
+    display:grid;
+    height: 100vh;
+    place-content: center;
+    margin:20px;
+
+} 
+.profil-capicité
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.profil-atout
+{
+    background: var(--white);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+    border-radius: 20px;
+}
+.profil-atout h2{
+    color: var(--green-color);
+    position: relative;
+    text-shadow: 5px 5px 10px var(--bleu-ciel)
+}
+.profil-autre p
+{
+    margin: 10px;
+}
+/* .profil-atout h2::before
+{
+    content: ' ';
+    position: absolute;
+    width: 50pt;
+    height: 3px;
+    background: var(--green-color);
+    top: 25px;left:20px;
+} */
+.profil-statistique,.profil-autre
+{
+    margin: 20px 10px;
+}
+.profilstat-titre th
+{
+    padding: 10px 10px;
+}
+.profilstat-contenu td
+{
+    padding: 10px 30px;
+    
+}
+.profil-activity h2
+{
+    color: var(--green-color);
+    text-shadow: 5px 5px 10px var(--bleu-ciel);
+    margin: 10px;
+}
+.profil-activity
+{
+    background: var(--white);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px;
+    transform: translateX(20px);
+    border-radius: 20px;
+    
+}
+.profil-challenges
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 0 10px;
+}
+.profil-challenge
+{
+    margin: 15px 20px;
+}
+.profil-activité li{
+    list-style-type: none;
+}
+.profil-club,.profil-activité
+
+{
+    margin: 10px 10px;
+}
